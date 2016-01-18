@@ -1,0 +1,17 @@
+﻿Build started 1/16/2016 1:12:37 AM.
+     1>Project "E:\programming_junk\cpp_repo\cpp_practice2\cpp_practice2\cpp_practice2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DataNode.cpp main.cpp
+         main.cpp
+         DataNode.cpp
+         Generating Code...
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming_junk\cpp_repo\cpp_practice2\Debug\cpp_practice2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programming_junk\cpp_repo\cpp_practice2\Debug\cpp_practice2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming_junk\cpp_repo\cpp_practice2\Debug\cpp_practice2.lib" /MACHINE:X86 Debug\DataNode.obj
+         Debug\main.obj
+     1>DataNode.obj : error LNK2019: unresolved external symbol "public: void __thiscall DataNode::setData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setData@DataNode@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: __thiscall DataNode::DataNode(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0DataNode@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>E:\programming_junk\cpp_repo\cpp_practice2\Debug\cpp_practice2.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "E:\programming_junk\cpp_repo\cpp_practice2\cpp_practice2\cpp_practice2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.95
